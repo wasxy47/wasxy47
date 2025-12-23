@@ -28,6 +28,3 @@ Agentic AI & LLM Engineer | RAG, Fine-Tuning, and AI Automation
 🌟 **Open to:** collaborations, AI/ML projects, and learning opportunities.
 
 ---
-
-
-```bash
