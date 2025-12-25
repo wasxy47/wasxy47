@@ -3,48 +3,74 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Agentic+AI+%7C+LLM+Engineer;RAG+%7C+Fine-Tuning+%7C+AI+Automation;Building+Production-Ready+AI+Systems" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=900&center=true&vCenter=true&width=800&lines=Agentic+AI+Engineer;LLM+Engineering+%7C+RAG+%7C+Fine-Tuning;AI+Automation+for+Real-World+Systems;Building+Production-Ready+GenAI" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Agentic%20AI-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GenAI-Production-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MLOps-Learning-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Agentic%20AI-Autonomous-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/GenAI-Production-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LLMs-Engineering-success?style=for-the-badge"/>
 </p>
+
+---
+
+## 🧭 About Me
+
+I’m an **AI / LLM Engineer** focused on building **Agentic AI systems**,  
+**RAG pipelines**, and **automation workflows** that actually work in production.
+
+I care about:
+- Reliability over demos  
+- Systems over scripts  
+- Shipping over hype  
 
 ---
 
 ## 🎯 Current Focus
 
-- 🤖 **Agentic AI Systems** — Autonomous, multi-agent workflows  
-- 🧠 **LLM Fine-Tuning & RAG** — Retrieval-augmented, domain-aware models  
-- ⚙️ **AI Automation** — Real-world pipelines that save time & money  
-- 📈 **Continuous Learning** — GenAI, MLOps, scalable AI systems  
+- 🤖 **Agentic AI** — Multi-agent systems, tool-using autonomous workflows  
+- 🧠 **LLM Engineering** — Fine-tuning, prompting, evaluation, optimization  
+- 🔍 **RAG Architectures** — Hybrid search, vector DBs, grounding LLMs  
+- ⚙️ **AI Automation** — AI agents inside real products & pipelines  
+- 📦 **MLOps (Learning)** — Scaling, monitoring, production constraints  
 
 ---
 
-## 🧠 AI / ML / GenAI Stack
+## 🧠 Tech Stack & Tools
 
-### 🔹 Languages
+### 🔹 Core Language
 <p>
   <img src="https://skillicons.dev/icons?i=python" />
 </p>
 
-### 🔹 LLM & Agent Frameworks
+---
+
+### 🔹 LLM Platforms
 <p>
-  <img src="https://skillicons.dev/icons?i=python" />
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" width="40"/>
-  <img src="[https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg](https://www.pngwing.com/en/free-png-aalbn)" width="40"/>
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/>
 </p>
 
 - OpenAI  
 - Hugging Face  
+
+---
+
+### 🔹 Agentic & LLM Frameworks
+<p>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/langchain.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg" width="40"/>
+</p>
+
 - LangChain  
 - LangGraph  
 - CrewAI  
+- AutoGen  
 - LlamaIndex  
 
-### 🔹 ML & Training
+---
+
+### 🔹 ML & Model Training
 <p>
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
 </p>
@@ -55,28 +81,47 @@
 - Jupyter  
 - Weights & Biases  
 
+---
+
 ### 🔹 Vector Databases & Retrieval
 <p>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/postgresql.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/databricks.svg" width="40"/>
 </p>
 
 - FAISS  
-- Chroma  
-- PostgreSQL  
-- Vector Databases  
+- ChromaDB  
+- PostgreSQL (pgvector)  
+- Vector Search Systems  
 
-### 🔹 Backend & DevOps
+---
+
+### 🔹 Backend, APIs & DevOps
 <p>
   <img src="https://skillicons.dev/icons?i=fastapi,nodejs,docker,git,githubactions" />
 </p>
 
+- FastAPI  
+- REST APIs  
+- Docker  
+- Git & GitHub Actions  
+
 ---
 
-## 🚀 What I’m Building Toward
-- Production-grade Agentic AI systems  
+## 🧪 What I Experiment With
+- Multi-agent coordination & memory  
+- Tool-calling LLMs  
+- Retrieval accuracy & hallucination reduction  
+- AI system evaluation  
+- Cost vs performance tradeoffs  
+
+---
+
+## 🚀 What I’m Working Toward
+- Scalable Agentic AI products  
 - AI-powered automation tools  
-- LLM-based SaaS & internal tools  
-- Real-world AI solutions that actually ship  
+- LLM-based SaaS systems  
+- Real-world AI deployments (not notebooks)  
 
 ---
 
@@ -91,10 +136,10 @@
   </a>
 </p>
 
-🌟 Open to collaborations, AI/ML projects, and serious learning opportunities.
+🌟 Open to collaborations, AI/ML projects, internships, and serious learning opportunities.
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
 </p>
