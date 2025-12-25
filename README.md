@@ -34,7 +34,7 @@
 <p>
   <img src="https://skillicons.dev/icons?i=python" />
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg" width="40"/>
+  <img src="[https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg](https://www.pngwing.com/en/free-png-aalbn)" width="40"/>
 </p>
 
 - OpenAI  
