@@ -58,7 +58,7 @@ I care about:
 
 ### 🔹 Agentic & LLM Frameworks
 <p>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/langchain.svg" width="40"/>
+  <img src="https://blogs.perficient.com/2023/11/08/demystifying-langchain-a-brief-introduction-and-implementation-overview/" width="40"/>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg" width="40"/>
 </p>
 
