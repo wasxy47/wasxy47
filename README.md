@@ -1,3 +1,4 @@
+<img width="1014" height="724" alt="contributions" src="https://github.com/user-attachments/assets/7b5623c8-8091-4060-bc77-eb2c83fd1c9a" />
 <h1 align="center">
   Hi, I'm Abdul Wasay 👋
 </h1>
