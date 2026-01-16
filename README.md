@@ -114,3 +114,5 @@ I'm always open to interesting conversations, collaborations, and opportunities.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&customColorList=22577E,5584AC,95D1CC"/>
 </p>
+
+![Contribution Snake](https://raw.githubusercontent.com/wasxy47/wasxy47/output/github-contribution-grid-snake-dark.svg)
