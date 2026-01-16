@@ -18,21 +18,19 @@
 
 ## 🧭 About Me
 
-Welcome to my corner of GitHub! I’m an **AI / LLM Engineer** passionate about moving beyond simple demos and building robust, **Agentic AI systems** and **RAG pipelines** that solve real-world problems.
+I’m an **AI / LLM Engineer** focused on building **Agentic AI systems**, **RAG pipelines**, and **automation workflows** that actually work in production.
 
-My philosophy is simple: building for production requires a different mindset. I focus on creating systems that are reliable, scalable, and maintainable. I'm not just implementing models; I'm engineering the entire lifecycle of an AI application, from data ingestion and model fine-tuning to deployment and monitoring.
-
-I prioritize:
-- **Reliability over demos**: It's not enough for it to work once; it needs to work every time.
-- **Systems over scripts**: I build modular, reusable, and tested architectures.
-- **Shipping over hype**: My goal is to deliver tangible value, not just chase the latest trend.
+I care about:
+- **Reliability** over demos  
+- **Systems** over scripts  
+- **Shipping** over hype  
 
 ---
 
 ## 🧠 Tech Stack & Tools
 
 ### ⚡ The Agentic AI Suite
-*Cutting-edge frameworks I use to build autonomous systems that can plan, execute, and iterate:*
+*Cutting-edge frameworks I use to build autonomous systems:*
 
 <p align="center">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
@@ -45,7 +43,7 @@ I prioritize:
 </p>
 
 ### 🛠️ Core Engineering & MLOps
-*The foundational tools and platforms powering my deployments, now including Hugging Face for model hosting and datasets:*
+*Foundational tools powering my deployments:*
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,pandas,numpy,huggingface&theme=dark" />
@@ -65,30 +63,26 @@ I prioritize:
 
 ## 🎯 Current Focus
 
-I am deeply invested in the following areas, constantly learning and applying new techniques:
-
-- 🤖 **Agentic AI**: Designing multi-agent systems where autonomous agents can collaborate, use tools, and maintain state to complete complex, multi-step tasks.
-- 🧠 **LLM Engineering**: Going deep on techniques like fine-tuning (PEFT/LoRA), advanced prompt engineering strategies, and rigorous evaluation of model performance.
-- 🔍 **RAG Architectures**: Building advanced Retrieval-Augmented Generation systems that use hybrid search (keyword + semantic), re-ranking, and graph-based retrieval to ground LLMs in factual data.
-- ⚙️ **AI Automation**: Integrating AI agents directly into business workflows and products to automate decision-making and data processing tasks.
-- 📦 **MLOps (Learning)**: Understanding the challenges of deploying models at scale, including monitoring for drift, managing versions, and optimizing for latency and cost.
+- 🤖 **Agentic AI** — Multi-agent systems, tool-using autonomous workflows  
+- 🧠 **LLM Engineering** — Fine-tuning, prompting, evaluation, optimization  
+- 🔍 **RAG Architectures** — Hybrid search, vector DBs, grounding LLMs  
+- ⚙️ **AI Automation** — AI agents inside real products & pipelines  
+- 📦 **MLOps (Learning)** — Scaling, monitoring, production constraints  
 
 ---
 
----
+## 📊 GitHub Analytics
 
-## 🧪 What I Experiment With
-I believe in learning by doing. Here are some of the experimental areas I'm actively exploring:
-- **Multi-agent coordination & memory**: How can agents effectively share information and maintain context over long horizons?
-- **Tool-calling LLMs**: Pushing the boundaries of what LLMs can do by giving them access to external APIs, databases, and code interpreters.
-- **Retrieval accuracy & hallucination reduction**: Developing techniques to ensure RAG systems retrieve the *right* information and that the LLM sticks to the facts.
-- **Cost vs performance tradeoffs**: Finding the sweet spot between using powerful, expensive models and smaller, faster, more cost-effective ones.
+<div align="center">
+<a href="https://github.com/wasxy47/wasxy47/generate-snake">
+  <img src="https://github.com/wasxy47/wasxy47/raw/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</a>
+
+</div>
 
 ---
 
 ## 🤝 Let’s Connect
-
-I'm always open to interesting conversations, collaborations, and opportunities.
 
 <div align="center">
 
@@ -97,7 +91,7 @@ I'm always open to interesting conversations, collaborations, and opportunities.
 </a>
 
 <a href="https://x.com/wasxy_47" target="_blank">
-  <img src="https://img.shields.io/badge/-Follow-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  <img src="https://img.shields.io/badge/X_(Twitter)-Follow-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 
 <a href="mailto:abdulwasay2019kk@gmail.com">
@@ -111,8 +105,6 @@ I'm always open to interesting conversations, collaborations, and opportunities.
 
 <br>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&customColorList=22577E,5584AC,95D1CC"/>
-</p>
-
-![Contribution Snake](https://raw.githubusercontent.com/wasxy47/wasxy47/output/github-contribution-grid-snake-dark.svg)
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&customColorList=5F8D98,3E6370,233C48"/>
+</div>
