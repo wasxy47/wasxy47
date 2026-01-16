@@ -91,7 +91,7 @@ I care about:
 </a>
 
 <a href="https://x.com/wasxy_47" target="_blank">
-  <img src="https://img.shields.io/badge/X_(Twitter)-Follow-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  <img src="https://img.shields.io/badge/‎-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 
 <a href="mailto:abdulwasay2019kk@gmail.com">
