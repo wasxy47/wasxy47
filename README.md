@@ -73,6 +73,11 @@ I care about:
 
 ## 📊 GitHub Analytics
 
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=wasxy47&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=wasxy47&theme=tokyonight&hide_border=true" />
+</p>
+
 <div align="center">
 <a href="https://github.com/wasxy47/wasxy47/generate-snake">
   <img src="https://github.com/wasxy47/wasxy47/raw/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
