@@ -18,7 +18,7 @@
 
 ## 🧭 About Me
 
-I’m an **AI / LLM Engineer** focused on building **Agentic AI systems**, **RAG pipelines**, and **automation workflows** that actually work in productions.
+I’m an **AI / LLM Engineer** focused on building **Agentic AI systems**, **RAG pipelines**, and **automation workflows** that actually work in production.
 
 I care about:
 - **Reliability** over demos  
