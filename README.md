@@ -87,6 +87,12 @@ I care about:
 
 ---
 
+
+### Profile Views
+
+![Visitor counter](https://count.getloli.com/@wasxy47?name=wasxy47&theme=booru-r6gdrawfriends&padding=6&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
+
+
 ## 🤝 Let’s Connect
 
 <div align="center">
