@@ -16,6 +16,10 @@
 
 ---
 
+> 🤖 **Auto-Commit Enabled**: This repository automatically commits daily (1-10 random commits) to maintain GitHub contribution streaks using GitHub Actions.
+
+---
+
 ## 🧭 About Me
 
 I’m an **AI / LLM Engineer** focused on building **Agentic AI systems**, **RAG pipelines**, and **automation workflows** that actually work in production.
