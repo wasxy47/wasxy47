@@ -16,7 +16,7 @@
 
 ---
 
-> 🤖 **Auto-Commit Enabled**: This repository automatically commits daily (1-10 random commits) to maintain GitHub contribution streaks using GitHub Actions.
+> 🤖 **Auto-Commit Enabled**: This repository automatically commits daily (1-10 random commits) to maintain GitHub contribution streaks using GitHub Actions. [Learn more →](AUTOCOMMIT.md)
 
 ---
 
