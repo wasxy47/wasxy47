@@ -1,0 +1,57 @@
+name: Daily Auto Commit
+
+on:
+  schedule:
+    # Runs daily at 12:00 AM UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Make random commits
+        run: |
+          # Generate random number of commits between 1 and 10
+          NUM_COMMITS=$((RANDOM % 10 + 1))
+          echo "Making $NUM_COMMITS commits today"
+          
+          # Get current date
+          DATE=$(date +"%Y-%m-%d")
+          
+          # Make random commits
+          for i in $(seq 1 $NUM_COMMITS); do
+            # Get fresh timestamp for each commit
+            TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
+            
+            # Create unique log entry
+            LOG_FILE="logs/activity-${DATE}.log"
+            echo "[$TIMESTAMP] Activity #$i - Automated commit to maintain streak" >> $LOG_FILE
+            
+            # Stage and commit
+            git add $LOG_FILE
+            git commit -m "Daily activity update #$i on $DATE"
+            
+            # Add small random delay between commits (except for the last one)
+            if [ $i -lt $NUM_COMMITS ]; then
+              sleep $((RANDOM % 5 + 1))
+            fi
+          done
+      
+      - name: Push changes
+        run: |
+          git push
