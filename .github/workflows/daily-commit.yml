@@ -2,7 +2,7 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    # Runs at a random time each day (12:00 AM UTC)
+    # Runs daily at 12:00 AM UTC
     - cron: "0 0 * * *"
   workflow_dispatch: # Allows manual trigger
 
@@ -32,10 +32,12 @@ jobs:
           
           # Get current date
           DATE=$(date +"%Y-%m-%d")
-          TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
           
           # Make random commits
           for i in $(seq 1 $NUM_COMMITS); do
+            # Get fresh timestamp for each commit
+            TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
+            
             # Create unique log entry
             LOG_FILE="logs/activity-${DATE}.log"
             echo "[$TIMESTAMP] Activity #$i - Automated commit to maintain streak" >> $LOG_FILE
@@ -44,8 +46,10 @@ jobs:
             git add $LOG_FILE
             git commit -m "Daily activity update #$i on $DATE"
             
-            # Add small random delay between commits (1-5 seconds)
-            sleep $((RANDOM % 5 + 1))
+            # Add small random delay between commits (except for the last one)
+            if [ $i -lt $NUM_COMMITS ]; then
+              sleep $((RANDOM % 5 + 1))
+            fi
           done
       
       - name: Push changes
