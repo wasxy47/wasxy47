@@ -2,7 +2,7 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    # Runs daily at 12:00 AM UTC
+    # Runs daily at 12:00 AM UTC (5:00 AM Karachi)
     - cron: "0 0 * * *"
   workflow_dispatch: # Allows manual trigger
 
@@ -11,9 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     env:
       BRANCH: ${{ github.event.repository.default_branch }}
+      AUTHOR_NAME: ${{ vars.AUTHOR_NAME }}
+      AUTHOR_EMAIL: ${{ vars.AUTHOR_EMAIL }}
 
     steps:
       - name: Checkout repository (default branch)
@@ -23,34 +25,26 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.repository.default_branch }}
       
-      - name: Configure Git
+      - name: Configure Git (bot as committer)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       
-      - name: Make random commits
+      - name: Make random commits (co-author you)
         run: |
-          # Generate random number of commits between 1 and 10
           NUM_COMMITS=$((RANDOM % 10 + 1))
           echo "Making $NUM_COMMITS commits today"
-          
-          # Get current date
+
           DATE=$(date +"%Y-%m-%d")
           
-          # Make random commits
           for i in $(seq 1 $NUM_COMMITS); do
-            # Get fresh timestamp for each commit
             TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
-            
-            # Create unique log entry
             LOG_FILE="logs/activity-${DATE}.log"
             echo "[$TIMESTAMP] Activity #$i - Automated commit to maintain streak" >> "$LOG_FILE"
             
-            # Stage and commit
             git add "$LOG_FILE"
-            git commit -m "Daily activity update #$i on $DATE"
+            git commit -m "Daily activity update #$i on $DATE" -m "Co-authored-by: ${AUTHOR_NAME} <${AUTHOR_EMAIL}>"
             
-            # Add small random delay between commits (except for the last one)
             if [ $i -lt $NUM_COMMITS ]; then
               sleep $((RANDOM % 5 + 1))
             fi
@@ -58,5 +52,4 @@ jobs:
       
       - name: Push changes to default branch
         run: |
-          # Works even if HEAD is detached
           git push origin HEAD:"$BRANCH"
