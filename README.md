@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/unwatermarked_Gemini_Generated_Image_k2vz2tk2vz2tk2vz.png" alt="Banner" width="100%" height="480">
+</p>
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=250&section=header&text=Abdul%20Wasay&desc=Agentic%20AI%20Engineer%20%7C%20Building%20Systems%20that%20Think&fontSize=70&fontAlignY=35&descAlignY=60&animation=fadeIn&fontColor=ffffff&descColor=00f2ff" />
