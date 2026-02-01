@@ -78,7 +78,7 @@ I care about:
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=wasxy47&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=wasxy47&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
   <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=wasxy47&theme=tokyonight&hide_border=true" />
 </p>
 
