@@ -78,23 +78,21 @@ I care about:
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=wasxy47&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=wasxy47&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=wasxy47&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=wasxy47&theme=tokyonight&hide_border=true&background=0d1117" />
 </p>
 
 <div align="center">
-<a href="https://github.com/wasxy47/wasxy47/generate-snake">
-  <img src="https://github.com/wasxy47/wasxy47/raw/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</a>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=wasxy47&theme=react-dark&hide_border=true&area=true" />
+</div>
 
+<div align="center">
+  <a href="https://github.com/wasxy47/wasxy47/generate-snake">
+    <img src="https://github.com/wasxy47/wasxy47/raw/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  </a>
 </div>
 
 ---
-
-
-### Profile Views
-
-![Visitor counter](https://count.getloli.com/@wasxy47?name=wasxy47&theme=booru-r6gdrawfriends&padding=6&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
 
 ## 🤝 Let’s Connect
