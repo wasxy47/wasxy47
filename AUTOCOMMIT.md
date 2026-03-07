@@ -1,13 +1,13 @@
-# Daily Auto-Commit — Complete Setup, Run, and Troubleshooting Guide
+# Weekly Auto-Commit — Complete Setup, Run, and Troubleshooting Guide
 
-This document explains exactly how the automated daily commit system is set up, how it runs, how to make sure your contributions appear on your GitHub graph, and how to troubleshoot issues.
+This document explains exactly how the automated weekly-log commit system is set up, how it runs, how to make sure your contributions appear on your GitHub graph, and how to troubleshoot issues.
 
 ---
 
 ## What this does
 
 - Makes 1–10 small commits each day
-- Writes an activity log file under `logs/` (one per day)
+- Appends daily activity to a weekly log file under `logs/` (one file per ISO week)
 - Runs automatically at 00:00 UTC (5:00 AM Karachi)
 - Can be triggered manually from the Actions tab
 - Attributes commits to you so they count on your contribution graph
@@ -37,16 +37,19 @@ GitHub Actions may start a few minutes after the scheduled time, but by 5:10 AM 
 
 ---
 
-## Files created daily
+## Files created weekly
 
-- A log file for the current date:
-  - `logs/activity-YYYY-MM-DD.log`
-- Example entries:
+- A log file for the current ISO week:
+  - `logs/week-YYYY-WNN.txt`
+- Example entries (all 7 days appended into one file):
   ```
   [2026-01-25 05:00:03] Activity #1 - Automated commit to maintain streak
   [2026-01-25 05:00:06] Activity #2 - Automated commit to maintain streak
+  [2026-01-26 05:00:01] Activity #1 - Automated commit to maintain streak
   ```
-- Multiple commits may be created (1–10) with short delays between them
+- Multiple commits are created each day (1–10) with short delays between them
+- Each day's entries are appended to the same weekly file
+- At the start of a new ISO week, a new file is created automatically
 
 ---
 
@@ -109,14 +112,15 @@ jobs:
           echo "Making $NUM_COMMITS commits today"
 
           DATE=$(date +"%Y-%m-%d")
+          WEEK=$(date +"%G-W%V")
+          LOG_FILE="logs/week-${WEEK}.txt"
           
           for i in $(seq 1 $NUM_COMMITS); do
             TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
-            LOG_FILE="logs/activity-${DATE}.log"
             echo "[$TIMESTAMP] Activity #$i - Automated commit to maintain streak" >> "$LOG_FILE"
             
             git add "$LOG_FILE"
-            git commit -m "Daily activity update #$i on $DATE" -m "Co-authored-by: ${AUTHOR_NAME} <${AUTHOR_EMAIL}>"
+            git commit -m "Weekly activity update #$i for week $WEEK (day $DATE)" -m "Co-authored-by: ${AUTHOR_NAME} <${AUTHOR_EMAIL}>"
             
             if [ $i -lt $NUM_COMMITS ]; then
               sleep $((RANDOM % 5 + 1))
@@ -143,7 +147,7 @@ jobs:
 5) Click “Run workflow”
 
 After it finishes:
-- Verify a new log file exists: `logs/activity-YYYY-MM-DD.log`
+- Verify the weekly log file exists: `logs/week-YYYY-WNN.txt`
 - Open the latest commit — you should see a line:
   ```
   Co-authored-by: wasxy47 <167606264+wasxy47@users.noreply.github.com>
@@ -199,7 +203,7 @@ Co-authoring is recommended because it keeps the bot as committer while creditin
 
 ## Maintenance
 
-- Logs can grow over time; you can periodically clean older files in `logs/`.
+- Logs accumulate one file per week; you can periodically clean older files in `logs/`.
 - To change the schedule, edit the cron (`"0 0 * * *"`). For example:
   - 1:30 AM UTC: `"30 1 * * *"`
 - To reduce commits, change `NUM_COMMITS` logic, e.g. max 3:
@@ -222,9 +226,10 @@ Co-authoring is recommended because it keeps the bot as committer while creditin
 
 ## Summary
 
-You have fully set up the daily auto-commit system:
+You have fully set up the weekly auto-commit system:
 - It runs at 00:00 UTC (5:00 AM Karachi)
-- It logs activity under `logs/`
+- It appends daily activity to a weekly log file under `logs/` (e.g., `logs/week-2026-W10.txt`)
+- A new weekly file is started automatically at the beginning of each ISO week
 - It adds you as co-author using:
   - `AUTHOR_NAME`: `wasxy47`
   - `AUTHOR_EMAIL`: `167606264+wasxy47@users.noreply.github.com`

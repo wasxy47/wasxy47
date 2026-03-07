@@ -36,14 +36,15 @@ jobs:
           echo "Making $NUM_COMMITS commits today"
 
           DATE=$(date +"%Y-%m-%d")
+          WEEK=$(date +"%G-W%V")
+          LOG_FILE="logs/week-${WEEK}.txt"
           
           for i in $(seq 1 $NUM_COMMITS); do
             TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
-            LOG_FILE="logs/activity-${DATE}.log"
             echo "[$TIMESTAMP] Activity #$i - Automated commit to maintain streak" >> "$LOG_FILE"
             
             git add "$LOG_FILE"
-            git commit -m "Daily activity update #$i on $DATE" -m "Co-authored-by: ${AUTHOR_NAME} <${AUTHOR_EMAIL}>"
+            git commit -m "Weekly activity update #$i for week $WEEK (day $DATE)" -m "Co-authored-by: ${AUTHOR_NAME} <${AUTHOR_EMAIL}>"
             
             if [ $i -lt $NUM_COMMITS ]; then
               sleep $((RANDOM % 5 + 1))
