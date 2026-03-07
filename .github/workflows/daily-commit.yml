@@ -32,7 +32,7 @@ jobs:
       
       - name: Make random commits (co-author you)
         run: |
-          NUM_COMMITS=$((RANDOM % 10 + 1))
+          NUM_COMMITS=$((RANDOM % 9 + 2))
           echo "Making $NUM_COMMITS commits today"
 
           DATE=$(date +"%Y-%m-%d")

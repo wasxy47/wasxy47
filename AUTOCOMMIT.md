@@ -6,7 +6,7 @@ This document explains exactly how the automated weekly-log commit system is set
 
 ## What this does
 
-- Makes 1–10 small commits each day
+- Makes 2–10 small commits each day
 - Appends daily activity to a weekly log file under `logs/` (one file per ISO week)
 - Runs automatically at 00:00 UTC (5:00 AM Karachi)
 - Can be triggered manually from the Actions tab
@@ -47,7 +47,7 @@ GitHub Actions may start a few minutes after the scheduled time, but by 5:10 AM 
   [2026-01-25 05:00:06] Activity #2 - Automated commit to maintain streak
   [2026-01-26 05:00:01] Activity #1 - Automated commit to maintain streak
   ```
-- Multiple commits are created each day (1–10) with short delays between them
+- Multiple commits are created each day (2–10) with short delays between them
 - Each day's entries are appended to the same weekly file
 - At the start of a new ISO week, a new file is created automatically
 
@@ -108,7 +108,7 @@ jobs:
       
       - name: Make random commits (co-author you)
         run: |
-          NUM_COMMITS=$((RANDOM % 10 + 1))
+          NUM_COMMITS=$((RANDOM % 9 + 2))
           echo "Making $NUM_COMMITS commits today"
 
           DATE=$(date +"%Y-%m-%d")
