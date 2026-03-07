@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/unwatermarked_Gemini_Generated_Image_k2vz2tk2vz2tk2vz.png" alt="Banner" width="100%" height="480">
+  <img src="assets/ac0508622efefbe7f5dcf89444278597.jpg" alt="Banner" width="100%" height="480">
 </p>
 
 <div align="center">
