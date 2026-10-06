@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <radialGradient id="orbC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbV" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#16213a"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" fill="#070b16"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <ellipse cx="230" cy="110" rx="260" ry="150" fill="url(#orbC)">
+    <animate attributeName="cx" values="230;330;230" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="110;150;110" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="970" cy="220" rx="280" ry="160" fill="url(#orbV)">
+    <animate attributeName="cx" values="970;880;970" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="220;180;220" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  <text x="600" y="148" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="76" font-weight="700" letter-spacing="14" fill="url(#tg)" filter="url(#glow)">ABDUL WASAY</text>
+  <text x="600" y="208" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="22" letter-spacing="16" fill="#22d3ee" opacity="0.95">AI ENGINEER</text>
+  <line x1="380" y1="250" x2="820" y2="250" stroke="#1e293b" stroke-width="2"/>
+  <line x1="380" y1="250" x2="520" y2="250" stroke="#22d3ee" stroke-width="2">
+    <animate attributeName="x1" values="380;680;380" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="520;820;520" dur="5s" repeatCount="indefinite"/>
+  </line>
+  <text x="600" y="296" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="15" letter-spacing="4" fill="#64748b">$ whoami &#8594; builder of production AI</text>
+</svg>
