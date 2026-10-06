@@ -8,38 +8,67 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=wasxy47&style=flat&color=22d3ee" />
 <img src="https://img.shields.io/badge/Focus-Production%20AI-0a0f1e?style=flat&logoColor=22d3ee&labelColor=0a0f1e&color=22d3ee" />
 
 </div>
 
 <img src="assets/divider.svg" width="100%" />
 
-## 🛠️ Stack
+## 🛠️ Skills
+
+### 💬 Languages
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,fastapi,nextjs,pytorch,docker,firebase,redis,postgres,git,linux,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,typescript&theme=dark" />
 </div>
 
+### 🤖 AI / LLM Engineering
+
 <div align="center">
-  <br>
+  <img src="https://skillicons.dev/icons?i=pytorch,huggingface&theme=dark" />
+  <br><br>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/LangGraph-8B5CF6?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Groq_Llama-F55036?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Gemini-1A73E8?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-2E9E44?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG_Systems-0E7490?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI_Agents-7C3AED?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-334155?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/QLoRA_Fine--tuning-9333EA?style=for-the-badge&logoColor=white" />
 </div>
 
-<img src="assets/divider.svg" width="100%" />
+### 🗄️ Retrieval & Databases
 
-## 🎯 Currently building
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=redis,postgres,firebase&theme=dark" />
+  <br><br>
+  <img src="https://img.shields.io/badge/ChromaDB-2E9E44?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/FAISS-0A66C2?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logoColor=white" />
+</div>
 
-- 🏭 **Production-grade RAG** — eval-first, not vibes
-- 🤖 **Agents that recover** — checkpointing, retries, idempotency, human-in-the-loop
-- 🛡️ **AI safety** — jailbreak defense, MCP security
+### ⚙️ Backend
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" />
+  <br><br>
+  <img src="https://img.shields.io/badge/REST_APIs-0A0F1E?style=for-the-badge&logoColor=22d3ee&labelColor=0A0F1E&color=22d3ee" />
+</div>
+
+### 🎨 Frontend
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" />
+</div>
+
+### 🧰 DevOps & Tools
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=docker,git,githubactions,linux,vscode,vercel&theme=dark" />
+</div>
 
 <img src="assets/divider.svg" width="100%" />
 
@@ -51,7 +80,15 @@
 </div>
 
 <div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=wasxy47&theme=tokyonight&no-frame=true&margin-w=8" />
+</div>
+
+<div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=wasxy47&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=22d3ee&line=8b5cf6&point=ffffff" />
+</div>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 </div>
 
 <div align="center">
