@@ -1,30 +1,21 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1e,50:1e1b4b,100:0e7490&height=230&section=header&text=Abdul%20Wasay&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%E2%80%94%20RAG%20Systems%20%26%20AI%20Agents&descSize=21&descColor=22d3ee&descAlignY=62" />
+<img src="assets/header.svg" width="100%" alt="Abdul Wasay — AI Engineer" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=22D3EE&center=true&vCenter=true&width=700&lines=AI+Engineer+%E2%80%94+RAG+%26+Agents;LangGraph+%E2%80%A2+Hybrid+RAG+%E2%80%A2+LLM+Apps;Shipping+production+AI,+not+demos" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=22D3EE&center=true&vCenter=true&width=700&lines=RAG+Systems+%E2%80%A2+AI+Agents+%E2%80%A2+LLM+Apps;Production+AI,+not+demos" alt="Typing SVG" />
 </a>
 
 <br>
 
 <img src="https://komarev.com/ghpvc/?username=wasxy47&style=flat&color=22d3ee" />
 <img src="https://img.shields.io/badge/Focus-Production%20AI-0a0f1e?style=flat&logoColor=22d3ee&labelColor=0a0f1e&color=22d3ee" />
-<img src="https://img.shields.io/badge/Location-Karachi-0a0f1e?style=flat&labelColor=0a0f1e&color=8b5cf6" />
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" />
 
-## 🧭 About
-
-I'm an **AI Engineer** from Karachi. I build **RAG systems** and **AI agents** that survive production — not demos.
-
-My rule: *if I can't explain every line of code, it doesn't go on my profile.*
-
----
-
-## 🛠️ Stack — only what I actually use
+## 🛠️ Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,typescript,fastapi,nextjs,pytorch,docker,firebase,redis,postgres,git,linux,vscode&theme=dark" />
@@ -42,28 +33,15 @@ My rule: *if I can't explain every line of code, it doesn't go on my profile.*
   <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logoColor=white" />
 </div>
 
----
-
-## 🚀 Flagship builds
-
-|  | Project | What it does | Stack |
-|---|---|---|---|
-| 🤖 | [**ai-incident-commander**](https://github.com/wasxy47/ai-incident-commander) | Autonomous incident response — agents triage, investigate and remediate with human-in-the-loop and crash-safe checkpointing | LangGraph · FastAPI · React · Postgres |
-| 🎬 | [**cinerag-hybrid-rag**](https://github.com/wasxy47/cinerag-hybrid-rag) | Hybrid film search — BM25 + dense retrieval, RRF fusion, cross-encoder reranking, eval harness | Python · Groq · Docker |
-| 🧭 | [**Smart_Career_Advisor**](https://github.com/wasxy47/Smart_Career_Advisor) | GraphRAG career guidance — knowledge graphs + vectors | LangGraph · Neo4j · ChromaDB · Gemini |
-| 🛡️ | [**mcp-sentinel**](https://github.com/wasxy47/mcp-sentinel) | Security scanner for MCP servers | TypeScript · Docker |
-| 🧠 | [**ai-learning-app**](https://github.com/wasxy47/ai-learning-app) | AI learning studio — a complete shipped product | Next.js · Groq · Firebase |
-| 🤝 | [**ADK_Negotiating_Agent**](https://github.com/wasxy47/ADK_Negotiating_Agent) | Autonomous negotiation agent | Google ADK · Docker |
-
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 🎯 Currently building
 
-- 🏭 **Production-grade RAG** — eval-first (RAGAS-style harnesses), not vibes
+- 🏭 **Production-grade RAG** — eval-first, not vibes
 - 🤖 **Agents that recover** — checkpointing, retries, idempotency, human-in-the-loop
 - 🛡️ **AI safety** — jailbreak defense, MCP security
 
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 📊 Analytics
 
@@ -82,7 +60,7 @@ My rule: *if I can't explain every line of code, it doesn't go on my profile.*
   </a>
 </div>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 🤝 Let's connect
 
