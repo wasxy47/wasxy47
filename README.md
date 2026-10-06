@@ -1,123 +1,110 @@
-<p align="center">
-  <img src="assets/ac0508622efefbe7f5dcf89444278597.jpg" alt="Banner" width="100%" height="480">
-</p>
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=250&section=header&text=Abdul%20Wasay&desc=Agentic%20AI%20Engineer%20%7C%20Building%20Systems%20that%20Think&fontSize=70&fontAlignY=35&descAlignY=60&animation=fadeIn&fontColor=ffffff&descColor=00f2ff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1e,50:1e1b4b,100:0e7490&height=230&section=header&text=Abdul%20Wasay&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%E2%80%94%20RAG%20Systems%20%26%20AI%20Agents&descSize=21&descColor=22d3ee&descAlignY=62" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00F2FF&center=true&vCenter=true&width=800&lines=Agentic+AI+Engineer;LLM+Engineering+%7C+RAG+%7C+Fine-Tuning;AI+Automation+for+Real-World+Systems;Building+Production-Ready+GenAI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=22D3EE&center=true&vCenter=true&width=700&lines=AI+Engineer+%E2%80%94+RAG+%26+Agents;LangGraph+%E2%80%A2+Hybrid+RAG+%E2%80%A2+LLM+Apps;Shipping+production+AI,+not+demos" alt="Typing SVG" />
 </a>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Agentic%20AI-Autonomous-000000?style=for-the-badge&logo=robotframework&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GenAI-Production-8A2BE2?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LLMs-Engineering-00f2ff?style=for-the-badge&logo=googlebard&logoColor=black"/>
-</p>
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=wasxy47&style=flat&color=22d3ee" />
+<img src="https://img.shields.io/badge/Focus-Production%20AI-0a0f1e?style=flat&logoColor=22d3ee&labelColor=0a0f1e&color=22d3ee" />
+<img src="https://img.shields.io/badge/Location-Karachi-0a0f1e?style=flat&labelColor=0a0f1e&color=8b5cf6" />
 
 </div>
 
 ---
 
-## 🧭 About Me
+## 🧭 About
 
-I’m an **AI / LLM Engineer** focused on building **Agentic AI systems**, **RAG pipelines**, and **automation workflows** that actually work in production.
+I'm an **AI Engineer** from Karachi. I build **RAG systems** and **AI agents** that survive production — not demos.
 
-I care about:
-- **Reliability** over demos  
-- **Systems** over scripts  
-- **Shipping** over hype  
+My rule: *if I can't explain every line of code, it doesn't go on my profile.*
 
 ---
 
-## 🧠 Tech Stack & Tools
-
-### ⚡ The Agentic AI Suite
-*Cutting-edge frameworks I use to build autonomous systems:*
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangGraph-FF4B4B?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CrewAI-FF6F00?style=for-the-badge&logo=robotframework&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Microsoft_AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=llamaindex&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-</p>
-
-### 🛠️ Core Engineering & MLOps
-*Foundational tools powering my deployments:*
+## 🛠️ Stack — only what I actually use
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,pandas,numpy,huggingface&theme=dark" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=fastapi,docker,git,githubactions,postgres,linux,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,fastapi,nextjs,pytorch,docker,firebase,redis,postgres,git,linux,vscode&theme=dark" />
 </div>
 
 <div align="center">
   <br>
-  <b>Vector & Retrieval:</b><br>
-  <img src="https://img.shields.io/badge/ChromaDB-Search-brightgreen?style=flat-square"/>
-  <img src="https://img.shields.io/badge/FAISS-Index-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/PGVector-Database-336791?style=flat-square"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-8B5CF6?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Groq_Llama-F55036?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-1A73E8?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChromaDB-2E9E44?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logoColor=white" />
 </div>
 
 ---
 
-## 🎯 Current Focus
+## 🚀 Flagship builds
 
-- 🤖 **Agentic AI** — Multi-agent systems, tool-using autonomous workflows  
-- 🧠 **LLM Engineering** — Fine-tuning, prompting, evaluation, optimization  
-- 🔍 **RAG Architectures** — Hybrid search, vector DBs, grounding LLMs  
-- ⚙️ **AI Automation** — AI agents inside real products & pipelines  
-- 📦 **MLOps (Learning)** — Scaling, monitoring, production constraints  
+|  | Project | What it does | Stack |
+|---|---|---|---|
+| 🤖 | [**ai-incident-commander**](https://github.com/wasxy47/ai-incident-commander) | Autonomous incident response — agents triage, investigate and remediate with human-in-the-loop and crash-safe checkpointing | LangGraph · FastAPI · React · Postgres |
+| 🎬 | [**cinerag-hybrid-rag**](https://github.com/wasxy47/cinerag-hybrid-rag) | Hybrid film search — BM25 + dense retrieval, RRF fusion, cross-encoder reranking, eval harness | Python · Groq · Docker |
+| 🧭 | [**Smart_Career_Advisor**](https://github.com/wasxy47/Smart_Career_Advisor) | GraphRAG career guidance — knowledge graphs + vectors | LangGraph · Neo4j · ChromaDB · Gemini |
+| 🛡️ | [**mcp-sentinel**](https://github.com/wasxy47/mcp-sentinel) | Security scanner for MCP servers | TypeScript · Docker |
+| 🧠 | [**ai-learning-app**](https://github.com/wasxy47/ai-learning-app) | AI learning studio — a complete shipped product | Next.js · Groq · Firebase |
+| 🤝 | [**ADK_Negotiating_Agent**](https://github.com/wasxy47/ADK_Negotiating_Agent) | Autonomous negotiation agent | Google ADK · Docker |
 
 ---
 
-## 📊 GitHub Analytics
+## 🎯 Currently building
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=wasxy47&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=wasxy47&theme=tokyonight&hide_border=true&background=0d1117" />
-</p>
+- 🏭 **Production-grade RAG** — eval-first (RAGAS-style harnesses), not vibes
+- 🤖 **Agents that recover** — checkpointing, retries, idempotency, human-in-the-loop
+- 🛡️ **AI safety** — jailbreak defense, MCP security
+
+---
+
+## 📊 Analytics
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=wasxy47&theme=react-dark&hide_border=true&area=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=wasxy47&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&icon_color=22d3ee&title_color=22d3ee" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=wasxy47&theme=tokyonight&hide_border=true&background=0d1117&ring=22d3ee&fire=8b5cf6&currStreakLabel=22d3ee" />
 </div>
 
 <div align="center">
-  <a href="https://github.com/wasxy47/wasxy47/generate-snake">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=wasxy47&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=22d3ee&line=8b5cf6&point=ffffff" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/wasxy47/wasxy47">
     <img src="https://github.com/wasxy47/wasxy47/raw/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
   </a>
 </div>
 
 ---
 
-
-## 🤝 Let’s Connect
+## 🤝 Let's connect
 
 <div align="center">
 
+<a href="https://www.upwork.com/freelancers/~01bdbe2615503875f4" target="_blank">
+  <img src="https://img.shields.io/badge/Upwork-Hire_Me-14a800?style=for-the-badge&logo=upwork&logoColor=white" />
+</a>
 <a href="https://www.linkedin.com/in/abdul-wasay-sheikh-xox" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-
 <a href="https://x.com/wasxy_47" target="_blank">
-  <img src="https://img.shields.io/badge/‎-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  <img src="https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white" />
 </a>
-
-<a href="mailto:abdulwasay2019kk@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<a href="mailto:wasxy47@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-
-<br>
-<img src="https://img.shields.io/badge/Discord-wasxy__47-5865F2?style=flat&logo=discord&logoColor=white"/>
 
 </div>
 
 <br>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&customColorList=5F8D98,3E6370,233C48"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1e,50:1e1b4b,100:0e7490&height=130&section=footer" />
 </div>
